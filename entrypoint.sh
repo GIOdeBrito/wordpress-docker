@@ -28,7 +28,7 @@ if ! wp core is-installed --allow-root; then
 
     # Install WordPress
     wp core install --url="http://localhost:8000" \
-					--title="Wordpress-Docker Test" \
+					--title="Wordpress Docker Environment" \
                     --admin_user="admin" \
                     --admin_password="123" \
 					--admin_email="admin@admin.com" \

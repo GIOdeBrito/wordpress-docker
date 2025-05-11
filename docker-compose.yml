@@ -4,6 +4,8 @@ services:
     container_name: wordpress
     ports:
       - "8000:80"
+    volumes:
+      - ./plugins:/var/www/html/wp-content/plugins
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress
