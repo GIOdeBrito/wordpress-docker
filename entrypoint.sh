@@ -39,9 +39,5 @@ else
 	echo "Wordpress is already installed"
 fi
 
-# Activate the plugin
-echo "Activating plugin: pluginteste"
-wp plugin activate pluginteste --allow-root
-
 # Start apache2
 /usr/local/bin/docker-entrypoint.sh apache2-foreground
